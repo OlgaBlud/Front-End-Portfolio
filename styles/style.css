@@ -68,6 +68,31 @@ h2 {
 .project-info {
   padding: 120px 60px;
 }
+
+.content-section {
+  padding: 160px 20px;
+  margin: 30px;
+}
+.content-section h1 {
+  font-family: var(--headers-font-family);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+.content-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.content-section p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 70%;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -80,32 +105,11 @@ h2 {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-section {
     padding: 0;
     text-align: center;
   }
-}
-.about-section {
-  padding: 160px 20px;
-  margin: 30px;
-}
-.about-section h1 {
-  font-family: var(--headers-font-family);
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-}
-.about-section h2 {
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.about-section p {
-  font-family: var(--default-font-family);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  opacity: 70%;
+  .content-section h1 {
+    font-size: 40px;
+  }
 }
