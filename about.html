@@ -19,6 +19,30 @@
     <title>About me</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Patricia's logo">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Logo"
+          />
+          <img
+            src="/images/small_logo.jpeg"
+            class="logo d-block d-md-none"
+            alt="small logo"
+          />
+        </a>
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Patricia">About</a>
+          </li>
+          <li><a href="/work.html" title="Patricia's projects">Work</a></li>
+          <li><a href="/contact.html" title="Contact Patricia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-section">
       <div class="row">
         <div class="col-lg-6 mb-5">
@@ -36,6 +60,54 @@
           <img src="images/my photo.png" alt="my photo" class="img-fluid" />
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">
+              Let’s work together and i’ll help you by all my best
+            </p>
+          </div>
+          <div>
+            <a href="/contact.html" title="Contact Patricia" class="btn mt-2"
+              >Let’s talk here</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:patricia@gmail.com"
+          title="Email Patricia"
+          class="email-link mb-5"
+          >patricia@gmail.com</a
+        >
+
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/"
+            title="Instagram profile"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/" title="GitHub profile" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/?locale=uk_UA"
+            title="Facebook profile"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p>
+          This project was coded by Olga Blud as SheCodes Homework and here is
+
+          <a href="https://github.com/OlgaBlud/Front-End-Portfolio.git">
+            open-source code</a
+          >
+        </p>
+      </footer>
     </div>
 
     <script
