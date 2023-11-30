@@ -20,6 +20,11 @@ h1 {
   font-weight: 700;
   line-height: 1.5;
 }
+h4 {
+  font-family: var(--headers-font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
 .hero p {
   font-weight: bold;
   font-size: 36px;
@@ -117,10 +122,43 @@ nav a {
   color: var(--primary-text-color);
   transition: all 150ms ease-in-out;
 }
+footer {
+  margin: 80px 0;
+}
+footer .contact-box {
+  background-color: var(--branding-color-light);
+  padding: 30px 120px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  margin: 20px 0;
+}
 nav li :hover,
-nav li.active a {
+nav li.active a,
+footer .email-link:hover {
   color: var(--branding-color);
 }
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--branding-color-light);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -142,5 +180,14 @@ nav li.active a {
   }
   nav a {
     font-size: 14px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .btn {
+    font-size: 18px;
   }
 }
